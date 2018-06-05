@@ -13,7 +13,7 @@ class HealthSimulation extends Simulation {
   }
 
   val theHttpProtocolBuilder = http
-    .baseURL("http://http://18.184.209.28:31000")
+    .baseURL("http://18.184.209.28:31000")
 
   val theScenarioBuilder = scenario("Calling Health Point")
     .exec(
